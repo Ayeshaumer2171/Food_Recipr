@@ -1,0 +1,125 @@
+.searchBar{
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+  margin-top: 22px;
+}
+
+.searchBar input{
+  width: 400px;
+  padding:9px;
+  font-size: 22px;
+  border: none;
+  border-color: #e7e7e7;
+  background-color: #e7e7e7;
+  border-radius: 6px;
+}
+
+.searchBar button{
+  width: 99px;
+  background-color: orange;
+  color: white;
+  border: none;
+  font-size: 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.meals {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.MealImg {
+  background-color: #f8f9fa; /* Light background */
+  border: 1px solid #dee2e6; /* Light border */
+  border-radius: 10px; /* Rounded corners */
+  margin: 15px;
+  width: 200px; /* Fixed width */
+  overflow: hidden; /* Hide overflow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.2s; /* Animation for scaling */
+  text-align: center; /* Center align text */
+  padding-bottom: 5px;
+}
+
+.MealImg:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.MealImg img {
+  width: 100%; /* Make image responsive */
+  border-bottom: 1px solid #dee2e6; /* Border between image and text */
+}
+
+.MealImg p {
+  font-size: 1.1em; /* Increase font size */
+  padding: 10px; /* Add some padding */
+  color: #333; /* Darker text color */
+}
+
+.MealImg button {
+  background-color:orange; /* Button color */
+  color: white; /* Text color */
+  border: none; /* No border */
+  border-radius: 20px; /* Rounded corners */
+  padding: 10px 15px; /* Padding */
+  cursor: pointer; /* Pointer cursor */
+  transition: background-color 0.3s; /* Transition for background color */
+}
+
+.MealImg button:hover {
+  background-color:orange; /* Darker on hover */
+}
+
+.mealInfos {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center vertically */
+  justify-content: space-between; /* Space between image and details */
+  padding: 20px;
+  max-width: 1200px; /* Limit width for larger screens */
+  margin: 0 auto; /* Center the container */
+  background-color: #f8f9fa; /* Light background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.mealInfos img {
+  max-width: 400px; /* Limit image width */
+  border-radius: 10px; /* Rounded corners */
+  margin-right: 20px; /* Space between image and details */
+}
+
+.info {
+  flex: 1; /* Allow this section to take up remaining space */
+}
+
+.info h1 {
+  font-size: 2em; /* Increase font size for title */
+  margin-bottom: 10px; /* Space below title */
+}
+
+.info button {
+  background-color: orange; /* Button color */
+  color: white; /* Text color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 15px; /* Padding */
+  cursor: pointer; /* Pointer cursor */
+  margin-bottom: 15px; /* Space below button */
+}
+
+.info button:hover {
+  background-color: orange; /* Darker on hover */
+}
+
+.info h3 {
+  margin-top: 20px; /* Space above instruction heading */
+}
+
+.info p {
+  margin-top: 10px; /* Space above instruction text */
+  line-height: 1.6; /* Improved readability */
+}
